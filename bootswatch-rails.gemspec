@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "http://github.com/maxim/bootswatch-rails"
 
   gem.add_dependency 'railties', '>= 3.1'
+  gem.add_dependency 'bootstrap-sass', '~> 2'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -16,3 +17,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Bootswatch::Rails::VERSION
 end
+
+# -*- encoding: utf-8 -*-
+require File.expand_path('../lib/bootswatch-rails/version', __FILE__)

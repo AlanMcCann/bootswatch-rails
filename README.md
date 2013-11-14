@@ -1,4 +1,4 @@
-# bootswatch-rails
+# bootswatch-rails (Bootstrap 3 version)
 
 This gem is meant to be used with
 [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass). It gives
@@ -6,6 +6,12 @@ you complete scss versions of [bootswatches](http://bootswatch.com) for use in
 your Rails 3 asset pipeline, just like bootstrap-sass gives you scss version of
 bootstrap itself.
 
+## Original
+This was forked from https://github.com/maxim/bootswatch-rails and updated for Bootstrap 3 assets from https://github.com/log0ymxm/bootswatch-scss.
+
+Finally, a pull request Bugfix: use boostrap-sass "~> 2" from theCurator was included to define the dependency on bootstrap-sass.
+
+This version is only in test mode right now.
 ## Installation
 
 Add this line to your application's Gemfile, in assets group:
